@@ -27,9 +27,11 @@
     <link rel="stylesheet" href="./assets/css/global.css" />
     <link rel="stylesheet" href="/assets/css/header.css" />
     <link rel="stylesheet" href="/assets/css/acordeon.css" />
+    <link rel="stylesheet" href="/assets/css/languages.css" />
+    <link rel="stylesheet" href="/assets/css/portfolio.css" />
   </head>
   <body>
-    <div class="main">
+    <main class="main">
       <header class="header">
         <img
           src="./assets/img/photo_out21.jpg"
@@ -40,21 +42,58 @@
         <div class="info">
           <p class="job">Desenvolvedora Front End</p>
           <p class="local">Suzano - SP</p>
-          <p class="fone">11 94546 3332</p>
-          <p class="email">g.alemagalhaes@gmail.com</p>
+          <p class="fone">
+            <a href="tel:(11)94546-3332">11 94546 3332</a>
+          </p>
+          <p class="email">
+            <a href="mailto:g.alemagalhaes@gmail.com"
+              >g.alemagalhaes@gmail.com</a
+            >
+          </p>
         </div>
       </header>
       <section class="acordeon open">
         <button class="trigger" type="button">Idiomas</button>
         <div class="content">
-          <ul>
+          <ul class="languages">
             <li>Português</li>
             <li>Inglês</li>
             <li>Francês</li>
           </ul>
         </div>
       </section>
-    </div>
+      <section class="acordeon open">
+        <button class="trigger" type="button">Portfolio</button>
+        <div class="content">
+          <ul class="portfolio">
+            <li>
+              <span class="title github">Portfolio</span>
+              <a
+                href="https://github.com/galemagalhaes/portfolio-page"
+                target="_blank"
+                >https://github.com/galemagalhaes/portfolio-page</a
+              >
+            </li>
+            <li>
+              <span class="title github">Portfolio</span>
+              <a
+                href="https://github.com/galemagalhaes/portfolio-page"
+                target="_blank"
+                >https://github.com/galemagalhaes/portfolio-page</a
+              >
+            </li>
+            <li>
+              <span class="title github">Portfolio</span>
+              <a
+                href="https://github.com/galemagalhaes/portfolio-page"
+                target="_blank"
+                >https://github.com/galemagalhaes/portfolio-page</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
   </body>
   <script src="/assets/js/acordeon.js"></script>
 </html>

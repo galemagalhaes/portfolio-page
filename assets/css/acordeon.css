@@ -35,13 +35,20 @@ height: 1.5rem;
 background-repeat: no-repeat;
 background-size: contain;
 background-image: url("/assets/icons/chevrons.png");
+transition: .25s;
 }
 .acordeon .trigger:hover{
   cursor: pointer;
 }
 .acordeon .content{
-  display: none;
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
 }
 .acordeon.open .content{
   display: inline-block;
+  padding: 0 1rem 1rem 2rem;
+  height: auto;
+  opacity: 1;
 }

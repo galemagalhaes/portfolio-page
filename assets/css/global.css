@@ -2,7 +2,7 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
-.main {
+main {
   padding: 1rem;
   margin: 1rem;
   border: 1px solid #fff;
@@ -27,7 +27,7 @@ body {
 }
 
 @media only screen and (min-width: 768px){
-  .main{
+  main{
     max-width: 1024px;
     margin: 1rem auto;
   }
