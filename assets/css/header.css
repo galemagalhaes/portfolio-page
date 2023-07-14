@@ -19,13 +19,16 @@
   align-items: flex-start;
   width: 100%;
 }
-.info p {
+.info p , a{
   display: flex;
   flex-direction: row;
   align-items: center;
   margin: 0.5rem;
   font-size: 1.25rem;
+  text-decoration: none;
+  color: #fff;
 }
+
 .info p::before {
   content: "";
   display: inline-block;
@@ -35,25 +38,28 @@
   background-size: contain;
   margin-right: 0.5rem;
 }
+.info a:hover{
+  text-decoration: underline;
+}
 .info .job::before {
-  background-image: url("/assets/icons/do-utilizador.png");
+  background-image: url("../icons/do-utilizador.png");
 }
 .info .local::before {
-  background-image: url("/assets/icons/localizacao.png");
+  background-image: url("../icons/localizacao.png");
 }
 .info .email::before {
-  background-image: url("/assets/icons/o-email.png");
+  background-image: url("../icons/o-email.png");
 }
 .info .fone::before {
-  background-image: url("/assets/icons/telefone.png");
+  background-image: url("../icons/telefone.png");
 }
 
 @media only screen and (min-width: 768px) {
   .header {
     display: grid;
-    grid-template-areas: 
-    "foto title" 
-    "foto info";
+    grid-template-areas:
+      "foto title"
+      "foto info";
   }
 
   .header .foto {

@@ -11,23 +11,24 @@ main {
 
 @font-face {
   font-family: "Neue Machina";
-  src: url(/assets/fonts/neue-machina/NeueMachina-Regular.otf);
+  src: url(../fonts/neue-machina/NeueMachina-Regular.otf);
 }
 body {
-  height: 100vh;
+  /* height: 100vh; */
   background-image: linear-gradient(
-    150deg,
-    rgb(76, 47, 240),
-    rgb(12, 139, 243),
-    rgb(187 4 247),
-    rgb(251, 94, 3)
+    120deg,
+    #000,
+    rgb(36, 39, 240),
+    rgb(226, 59, 176),
+    rgb(131, 36, 240),
+    #000
   );
   background-repeat: no-repeat;
   color: #fff;
 }
 
-@media only screen and (min-width: 768px){
-  main{
+@media only screen and (min-width: 768px) {
+  main {
     max-width: 1024px;
     margin: 1rem auto;
   }

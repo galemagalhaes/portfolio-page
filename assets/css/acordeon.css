@@ -9,8 +9,8 @@
 }
 .acordeon.open,
 .acordeon:hover{
-  background-color: #3145fc;
-  border-color: #3145fc;
+  background-color: #8d4ec2;
+  border-color: #8d4ec2;
 }
 .acordeon.open .trigger::after{
 transform: rotate(180deg);
@@ -34,7 +34,7 @@ width: 1.5rem;
 height: 1.5rem;
 background-repeat: no-repeat;
 background-size: contain;
-background-image: url("/assets/icons/chevrons.png");
+background-image: url("../icons/chevrons.png");
 transition: .25s;
 }
 .acordeon .trigger:hover{

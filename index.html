@@ -25,10 +25,12 @@
       href="./assets/fonts/neue-machina/NeueMachina-Regular.otf"
     />
     <link rel="stylesheet" href="./assets/css/global.css" />
-    <link rel="stylesheet" href="/assets/css/header.css" />
-    <link rel="stylesheet" href="/assets/css/acordeon.css" />
-    <link rel="stylesheet" href="/assets/css/languages.css" />
-    <link rel="stylesheet" href="/assets/css/portfolio.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/acordeon.css" />
+    <link rel="stylesheet" href="./assets/css/languages.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio.css" />
+    <link rel="stylesheet" href="./assets/css/experience.css" />
+    <link rel="stylesheet" href="./assets/css/skills.css" />
   </head>
   <body>
     <main class="main">
@@ -53,7 +55,62 @@
         </div>
       </header>
       <section class="acordeon open">
-        <button class="trigger" type="button">Idiomas</button>
+        <button class="trigger" type="button"><h3>Skills</h3></button>
+        <div class="content">
+          <div class="skills">
+            <section class="tools">
+              <h4>Ferramentas</h4>
+              <ul class="">
+                <li class="lang">
+                  <img
+                    src="./assets/icons/programacao.png"
+                    alt="JavaScript"
+                    title="JavaScript"
+                  />
+                  JavaScript
+                </li>
+                <li class="lang">
+                  <img
+                    src="./assets/icons/programacao.png"
+                    alt="CSS"
+                    title="CSS"
+                  />
+                  CSS
+                </li>
+                <li class="lang">
+                  <img
+                    src="./assets/icons/programacao.png"
+                    alt="HTML"
+                    title="HTML"
+                  />
+                  HTML
+                </li>
+                <li class="lang">
+                  <img
+                    src="./assets/icons/programacao.png"
+                    alt="ReactJS"
+                    title="React"
+                  />
+                  React
+                </li>
+              </ul>
+            </section>
+            <section class="personal">
+              <h4>Habilidades pessoais</h4>
+              <ul class="">
+                <li>Organização</li>
+                <li>Atenção a detalhes</li>
+                <li>Curiosidade</li>
+                <li>Flexibilidade</li>
+                <li>Adaptação</li>
+                <li>Auto motivação</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section class="acordeon open">
+        <button class="trigger" type="button"><h3>Idiomas</h3></button>
         <div class="content">
           <ul class="languages">
             <li>Português</li>
@@ -63,7 +120,7 @@
         </div>
       </section>
       <section class="acordeon open">
-        <button class="trigger" type="button">Portfolio</button>
+        <button class="trigger" type="button"><h3>Portfolio</h3></button>
         <div class="content">
           <ul class="portfolio">
             <li>
@@ -71,29 +128,48 @@
               <a
                 href="https://github.com/galemagalhaes/portfolio-page"
                 target="_blank"
-                >https://github.com/galemagalhaes/portfolio-page</a
+                >github.com/galemagalhaes/portfolio-page</a
               >
             </li>
             <li>
-              <span class="title github">Portfolio</span>
-              <a
-                href="https://github.com/galemagalhaes/portfolio-page"
-                target="_blank"
-                >https://github.com/galemagalhaes/portfolio-page</a
+              <span class="title github">Pokédex</span>
+              <a href="https://github.com/galemagalhaes/pokedex" target="_blank"
+                >github.com/galemagalhaes/pokedex</a
               >
             </li>
             <li>
-              <span class="title github">Portfolio</span>
+              <span class="title github">Alura ONE</span>
               <a
-                href="https://github.com/galemagalhaes/portfolio-page"
+                href="https://github.com/galemagalhaes/Alura-ONE"
                 target="_blank"
-                >https://github.com/galemagalhaes/portfolio-page</a
+                >github.com/galemagalhaes/Alura-ONE</a
               >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="acordeon open">
+        <button class="trigger" type="button">
+          <h3>Experiência Profissional</h3>
+        </button>
+        <div class="content">
+          <ul class="experience">
+            <li>
+              <h4 class="title">
+                Desenvolvedora Front-end - Estágio ACCT Global
+              </h4>
+              <p class="period">Dezembro 2021 - Junho 2022</p>
+              <p class="tasks">
+                Desenvolvimento de sites de e-commerce sobre plataforma VTEX
+              </p>
+              <p class="tasks">
+                Uso de HTML, JavaScript, ReactJS, CSS, TypeScript, GraphQL
+              </p>
             </li>
           </ul>
         </div>
       </section>
     </main>
   </body>
-  <script src="/assets/js/acordeon.js"></script>
+  <script src="./assets/js/acordeon.js"></script>
 </html>
