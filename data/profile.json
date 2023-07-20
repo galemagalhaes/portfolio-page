@@ -33,7 +33,7 @@
       "Automotivação"
     ]
   },
-  "languages":[
+  "language":[
     "Português BR",
     "Inglês",
     "Francês"
@@ -62,7 +62,9 @@
     {
       "name": "Desenvolvedora Front-end - Estágio ACCT Global",
       "period": "Dezembro 2021 - Junho 2022",
-      "description": "Desenvolvimento de sites de e-commerce sobre plataforma VTEX <br/> Uso de HTML, JavaScript, ReactJS, CSS, TypeScript, GraphQL"
+      "description-l1": "Desenvolvimento de sites de e-commerce sobre plataforma VTEX",
+      "description-l2": "Uso de HTML, JavaScript, ReactJS, CSS, TypeScript, GraphQL",
+      "description-l3":""
     }
   ]
 }

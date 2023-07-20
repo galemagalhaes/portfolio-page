@@ -39,10 +39,9 @@ function updateHardSkills(profileData) {
 }
 
 function updateLanguages(profileData) {
-  const languages = document.getElementById("profile.languages");
-  debugger
-  languages.innerHTML = profileData.languages
-    .map((language) => `<li>${language}</li>`)
+  const languages = document.getElementById("profile.language");
+  languages.innerHTML = profileData.language
+    .map((langs) => `<li>${langs}</li>`)
     .join("");
 }
 
@@ -61,12 +60,14 @@ function updatePortfolio(profileData) {
 
 function updateProfessionalExperience(profileData){
   const professionalExperience = document.getElementById('profile.professionalExperience')
-  professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
+  professionalExperience.innerHTML = profileData.professionalExperience.map((experience) => {
     return `
       <li>
         <h3 class="title">${experience.name}</h3>
         <p class="period">${experience.period}</p>
-        <p>${experience.description}</p>
+        <p class="tasks">${experience.description-l1}</p>
+        <p class="tasks">${experience.description-l2}</p>
+        <p class="tasks">${experience.description-l3}</p>
       </li>
     `
   }).join("")
