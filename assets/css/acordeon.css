@@ -9,8 +9,8 @@
 }
 .acordeon.open,
 .acordeon:hover{
-  background-color: #8d4ec2;
-  border-color: #8d4ec2;
+  background-color: #7316be;
+  border-color: #7316be;
 }
 .acordeon.open .trigger::after{
 transform: rotate(180deg);
