@@ -2,7 +2,35 @@
   "name": "Glaucia Magalhaes",
   "photo": "https://avatars.githubusercontent.com/u/80106417?v=4",
   "job": "Desenvolvedora Front End",
-  "location": "São Paulo",
+  "location": "Suzano SP",
   "phone":"11 94546 3332",
-  "email": "g.alemagalhaes@gmail.com"
+  "email": "g.alemagalhaes@gmail.com",
+  "skills": {
+    "hardskills": [
+      {
+        "name": "JavaScript",
+        "logo": "TODO"
+      },
+      {
+        "name": "HTML",
+        "logo": "TODO"
+      },
+      {
+        "name": "CSS",
+        "logo": "TODO"
+      },
+      {
+        "name": "React",
+        "logo": "TODO"
+      }
+    ],
+    "softskills": [
+      "Organização",
+      "Atenção a detalhes",
+      "Curiosidade",
+      "Flexibilidade",
+      "Adaptação",
+      "Automotivação"
+    ]
+  }
 }

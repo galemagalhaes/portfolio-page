@@ -4,7 +4,7 @@ function updateProfileInfo(profileData){
   photo.alt = profileData.name
 
   const name = document.getElementById('profile.name')
-  name.innerText = profileData.name
+  name.innerHTML = profileData.name
 
   const job = document.getElementById('profile.job')
   job.innerText = profileData.job
@@ -23,5 +23,6 @@ function updateProfileInfo(profileData){
 
 (async () => {
   const profileData = await fetchProfileData()
+  updateProfileInfo(profileData)
   console.log(profileData)
 })()
