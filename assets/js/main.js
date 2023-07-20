@@ -21,14 +21,26 @@ function updateProfileInfo(profileData){
   email.href = `mailto:${profileData.email}`
 }
 
-function updateProfileSkills(profileData){
+function updateSoftSkills(profileData){
   const softskills = document.getElementById('profile.skills.softskills')
   softskills.innerHTML = profileData.skills.softskills.map(skill => `<li>${skill}</li>`).join('')
+}
+
+function updateHardSkills(profileData){
+  const hardskills = document.getElementById('profile.skills.hardskills')
+  hardskills.innerHTML = profileData.skills.hardskills.map(skill => `<li> <img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"> </li>`).join('')
+}
+
+function updateLanguages(profileData){
+  const languages = document.getElementById('profile.languages')
+  languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
 
 (async () => {
   const profileData = await fetchProfileData()
   updateProfileInfo(profileData)
-  updateProfileSkills(profileData)
+  updateSoftSkills(profileData)
+  updateHardSkills(profileData)
+  updateLanguages(profileData)
   console.log(profileData)
 })()
