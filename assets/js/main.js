@@ -65,9 +65,8 @@ function updateProfessionalExperience(profileData){
       <li>
         <h3 class="title">${experience.name}</h3>
         <p class="period">${experience.period}</p>
-        <p class="tasks">${experience.description-l1}</p>
-        <p class="tasks">${experience.description-l2}</p>
-        <p class="tasks">${experience.description-l3}</p>
+        <p class="tasks">${experience.description}</p>
+        
       </li>
     `
   }).join("")
