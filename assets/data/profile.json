@@ -2,11 +2,7 @@
   "name": "Glaucia Magalhaes",
   "photo": "https://avatars.githubusercontent.com/u/80106417?v=4",
   "job": "Desenvolvedora Front End",
-  "location":{
-    "city": "Suzano",
-    "state": "São Paulo",
-    "country": "Brasil"
-  },
+  "location": "São Paulo",
   "phone":"11 94546 3332",
   "email": "g.alemagalhaes@gmail.com"
 }
