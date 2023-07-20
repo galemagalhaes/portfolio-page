@@ -3,7 +3,7 @@
   "photo": "https://avatars.githubusercontent.com/u/80106417?v=4",
   "job": "Desenvolvedora Front End",
   "location": "Suzano - SP",
-  "phone":"11 94546 3332",
+  "phone": "11 94546 3332",
   "email": "g.alemagalhaes@gmail.com",
   "skills": {
     "hardskills": [
@@ -33,11 +33,7 @@
       "Automotivação"
     ]
   },
-  "language":[
-    "Português BR",
-    "Inglês",
-    "Francês"
-  ],
+  "languages": ["Português BR", "Inglês", "Francês"],
   "portfolio": [
     {
       "name": "Página Portfolio - Formação JS Developer - DIO",
@@ -62,7 +58,7 @@
     {
       "name": "Desenvolvedora Front-end - Estágio ACCT Global",
       "period": "Dezembro 2021 - Junho 2022",
-      "description": "Desenvolvimento de sites de e-commerce sobre plataforma VTEX <br/> Uso de HTML, JavaScript, ReactJS, CSS, TypeScript, GraphQL"
+      "description": "Desenvolvimento de sites de e-commerce sobre plataforma VTEX. Uso de HTML, JavaScript, ReactJS, CSS, TypeScript, GraphQL"
     }
   ]
 }

@@ -39,9 +39,9 @@ function updateHardSkills(profileData) {
 }
 
 function updateLanguages(profileData) {
-  const languages = document.getElementById("profile.language");
-  languages.innerHTML = profileData.language
-    .map((langs) => `<li>${langs}</li>`)
+  const languages = document.getElementById("profile.languages");
+  languages.innerHTML = profileData.languages
+    .map((language) => `<li>${language}</li>`)
     .join("");
 }
 
@@ -66,7 +66,6 @@ function updateProfessionalExperience(profileData){
         <h3 class="title">${experience.name}</h3>
         <p class="period">${experience.period}</p>
         <p class="tasks">${experience.description}</p>
-        
       </li>
     `
   }).join("")
