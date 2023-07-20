@@ -50,6 +50,12 @@
       "url": "https://github.com/galemagalhaes/pokedex",
       "certificado": "https://www.dio.me/certificate/74A5EAA9/share",
       "github": true
+    },
+    {
+      "name": "Projetos do Programa Alura ONE - Alura & Oracle Next Generation",
+      "url": "https://github.com/galemagalhaes/Alura-ONE",
+      "certificado": "",
+      "github": true
     }
   ]
 }
