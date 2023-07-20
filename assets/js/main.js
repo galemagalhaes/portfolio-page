@@ -76,6 +76,7 @@ function updateProfessionalExperience(profileData){
   updateProfileInfo(profileData);
   updateSoftSkills(profileData);
   updateHardSkills(profileData);
+  updateLanguages(profileData)
   updatePortfolio(profileData);
   updateProfessionalExperience(profileData)
 })();
