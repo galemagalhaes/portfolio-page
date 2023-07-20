@@ -9,19 +9,19 @@
     "hardskills": [
       {
         "name": "JavaScript",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/galemagalhaes/portfolio-page/main/data/imgs/javascript.png"
       },
       {
         "name": "HTML",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/galemagalhaes/portfolio-page/main/data/imgs/html-5.png"
       },
       {
         "name": "CSS",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/galemagalhaes/portfolio-page/main/data/imgs/css.png"
       },
       {
         "name": "React",
-        "logo": "TODO"
+        "logo": "https://raw.githubusercontent.com/galemagalhaes/portfolio-page/main/data/imgs/reagir.png"
       }
     ],
     "softskills": [
